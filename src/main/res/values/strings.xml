@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Kc Quiz App</string>
+
+    <string name="questionOne">1. The tiny opening through which plants breathe is known as ____</string>
+    <string name="questionOne_1stchoice">Stomata</string>
+    <string name="questionOne_2ndchoice">Osmosis</string>
+    <string name="questionOne_3rdchoice">Hole</string>
+
+    <string name="questionTwo">2. ___ doctor takes care of the skin</string>
+
+    <string name="questionThree">3. Nigeria is divided into ___ geopolitical zones</string>
+    <string name="questionThree_1stchoice">8</string>
+    <string name="questionThree_2ndchoice">6</string>
+    <string name="questionThree_3rdchoice">7</string>
+    <string name="questionThree_4thchoice">5</string>
+
+    <string name="questionFour">4. Pre-marital sexual relationship can lead to ___</string>
+
+    <string name="questionFive">5. The love for ones country is known as ___ </string>
+    <string name="questionFive_1stchoice">Statism</string>
+    <string name="questionFive_2ndchoice">Patriotism</string>
+    <string name="questionFive_3rdchoice">Aligence</string>
+
+    <string name="questionSix">6. The bone that protects the brain is called ____ </string>
+
+    <string name="questionSeven">7. The essence of mulching includes all the following except</string>
+    <string name="questionSeven_1stchoice">Control of erosion</string>
+    <string name="questionSeven_2ndchoice">Weed control</string>
+    <string name="questionSeven_3rdchoice">Increase in soil fertility</string>
+    <string name="questionSeven_4thchoice">Change in temperature</string>
+
+    <string name="questionEight">8. Plants with nodules are called ___</string>
+
+    <string name="questionNine">9. An insect that attacks yam tubers is ___</string>
+    <string name="questionNine_1stchoice">Weevil</string>
+    <string name="questionNine_2ndchoice">Beetle</string>
+
+    <string name="questionTen">10. Animals with complex stomach are called ____</string>
+
+    <string name="submit">Submit</string>
+
+
+</resources>

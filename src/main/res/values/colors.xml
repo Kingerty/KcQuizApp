@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00796B</color>
+    <color name="colorPrimaryDark">#dd00796b</color>
+    <color name="colorAccent">#607D8B</color>
+
+    <color name="primaryText">#212121</color>
+    <color name="secondaryText">#727272</color>
+    <color name="colorPrimary2">#45413e</color>
+    <color name="colorPrimaryDark2">#45413e</color>
+    <color name="colorAccent2">#4D000000</color>
+
+    <!--switch color-->
+
+    <color name="thumb_active">#45a351</color>
+    <color name="track_active">#99637e66</color>
+
+    <color name="thumb_inactive">#A5A5A5</color>
+    <color name="track_inactive">#66A5A5A5</color>
+
+    <color name="colorPrimaryTransparent">#44063326</color>
+    <color name="colorTransparentToolbar">#0001a3ae</color>
+    <color name="colorPrimaryLight">#45a351</color>
+    <color name="colorSecondaryDark">#45a351</color>
+    <color name="colorPrimaryText">#111111</color>
+    <color name="colorSecondaryText">#1c93ba</color>
+    <color name="base_background">#fdfdfd</color>
+    <color name="pink_background">#ff1493</color>
+    <color name="pupple_background">#990199</color>
+    <color name="pattern_color">#0ee684</color>
+    <color name="tint_color">#dedede</color>
+    <color name="white">#ffffff</color>
+
+    <color name="colorFragment">#E0E0E0</color>
+    <color name="colorFaded">#9E9E9E</color>
+    <color name="colorTransparent">#449E9E9E</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c74</color>
+    <color name="bg_screen2">#f64c74</color>
+    <color name="bg_screen3">#f64c74</color>
+
+</resources>
