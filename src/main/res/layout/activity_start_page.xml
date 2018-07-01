@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".HomeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:id="@+id/topBg"
+        android:background="@color/colorPrimary">
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/quiz_logo"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logoBg"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/appName"
+                android:textColor="#fff"
+                android:text="Kc Quiz App"
+                android:textStyle="bold"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/questionNumber"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="4dp"
+                android:textColor="#fff"
+                android:text="Enhancing learning..."
+                android:textSize="12sp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/point"
+            android:layout_marginBottom="12dp"
+            android:layout_marginRight="8dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:text="4 over 10"
+            android:visibility="gone"
+            android:textSize="12sp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:id="@+id/startBtnBg"
+        android:background="@drawable/round_rect_selector"
+        >
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_rect_selector"
+            android:textAlignment="center"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/startBtn"
+            android:text="Start Quiz"
+            android:textColor="@color/colorPrimary"
+            />
+    </RelativeLayout>
+</RelativeLayout>

@@ -58,7 +58,7 @@ public class OptionAdapter extends BaseAdapter {
         }
         listViewHolder.mOptionItem.setText(mListItem.get(position).getmOptionItem());
         listViewHolder.mLetter.setText(mListItem.get(position).getLetter());
-
+            //notifyDataSetChanged();
         return convertView;
     }
 
